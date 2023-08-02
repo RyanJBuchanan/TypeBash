@@ -1,0 +1,68 @@
+TypeBash Documentation
+
+\Section 0
+\0.0.1 Philosophy
+//TypeBash is a definition-based markup language.
+\0.0.2 Comments
+// Comments are written //
+// A multi-line comment is delimited by // and //* //*
+\0.0.3 Generic variables
+// A generic variable is called $s when defining a function
+
+\Section 1 Rules and Definitions
+\1.0.0 Rules
+//* A rule is a function x with an argument delimited by parentheses.
+So, a rule is written x(v), rule(test), etc. //
+
+\1.1.0 Definitions
+//*
+A definition is a bijective map, and it is written :=
+A definition defines a relationship such that 
+R := rule(test) equates R with the function on the right-hand side.
+//
+
+\Section 2 Types and Type Functions
+//2.0.0. Conventions
+//*
+From here forth, $_ := is used to define a function
+A property P being satisfied means that there is a witness object p such
+that p ==> {p \in P} holds.
+//
+
+\2.1.0. Some Functions
+//*
+Most basically, types are related by arrows. An arrow 
+	"=>"
+is an action performed once the necessary conditions of a contract have
+been satisfied.
+//
+
+$_\R := XRY => X$sY
+$_\in := x$sX
+$_type.has(X,Y) := {x$sX}R{y$sY} 
+				= x \in X => y \in Y
+
+\2.1.1 Labelling
+\2.1.1a Naming
+$_\name.(obj,cat) := obj => cat_Str"_s=obj"
+\2.1.1b Labelling Sections
+//A section is labelled by a backslash. 
+	\ := \name.(Section_number,Section_name);
+		type.has(Section_name,String)
+
+\Section 3 Categories
+//*
+A category is a special Type which enriches the objects of a certain
+set of classes by providing a certain pre-defined universal property.
+//
+
+//Essentially,
+2.1.2 Defining a category
+Cat_$s := s => S; 
+	{s \in S := 
+		{{s => y} => {S => Y}
+	};
+//*
+A category is a referential type-bearing object. Objects of a category
+inherit the properties of the category.
+// 
