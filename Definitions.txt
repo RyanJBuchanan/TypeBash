@@ -2,8 +2,17 @@
 $T(Definendum := Definition
 
 A definiendum is an object that is to be given express functional form by
-means of a definition.)
+means of a definiens.)
 
 //Scraps
 {P:=Q} => {p \in P} => Q
+//*
+
+//
+These two aspects, the definiendum, and the definiens, form a definition.
+Definitions are the basis of TypeBash.
+
+A definition has two peroperties
+a. Coherency - can be interpreted by a machine
+b. Power - performs real work
 //*
