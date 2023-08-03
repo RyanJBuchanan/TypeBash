@@ -1,8 +1,8 @@
 \Definitions
 $T(Definendum := Definition
 
-A definiendum is an object that is to be given express functional form by
-means of a definiens.)
+A definien is an object that is to be given express functional form by
+means of a definiendum.)
 
 //Scraps
 {P:=Q} => {p \in P} => Q
