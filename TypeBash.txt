@@ -2,7 +2,7 @@ TypeBash Documentation
 
 \Section 0
 \0.0.1 Philosophy
-//TypeBash is a small-footprint, definition-based markup language.
+//TypeBash is a definition-based markup language.
 \0.0.2 Comments
 // Comments are written //
 // A multi-line comment is delimited by // and //* //*
@@ -71,3 +71,6 @@ $_has.property(P,k) := P \in P+k
 \Section 4 Compiling
 Compile_$s := show_script(file.tyb) => write(file.exe)
 //Quick and easy .exe compiling
+
+\Section 5 Written Text
+$T(Writing $T() allows one to display a portion of text.)

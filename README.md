@@ -1,2 +1,2 @@
 # TypeBash
- A very small programming language
+ A very small definition-based programming language.

@@ -1,0 +1,5 @@
+\Definitions
+$T(Definendum := Definition
+
+A definiendum is an object that is to be given express functional form by
+means of a definition.)
